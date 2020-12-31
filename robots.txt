@@ -1,0 +1,5 @@
+# Allow crawling
+User-agent: *
+Allow: /
+
+Sitemap: https://the-rita.com/sitemap.txt
