@@ -2,6 +2,29 @@
 <html lang="en">
 
 <head>
+  <script type="text/javascript" async=1>
+        ;(function(s,t,r,e,a,m,x){if(!s[a]){s.StreamNamespace=s.StreamNamespace||[];
+            s.StreamNamespace.push(a);s[a]=function(){(s[a].q=s[a].q||[]).push(arguments)
+            };s[a].q=s[a].q||[];m=t.createElement(r);x=t.getElementsByTagName(r)[0];m.async=1;
+            m.src=e;x.parentNode.insertBefore(m,x)}}(window,document,"script","https://192.168.68.116:4001/assets/common/mstream.min.js","marketale"));
+
+        window.marketale('newTracker', 'mt', '192.168.68.116:4001', {
+            appId: "cpagrxyx",
+            encodeBase64: false
+        });
+        marketale('enableTracking');
+        
+        ;(function(m,a,r,k,e,t,l){m[e]=function(){(m[e].q=m[e].q || []).push(arguments)};
+        m[e].q=m[e].q||[];t=a.createElement(r);l=a.getElementsByTagName(r)[0];t.async=1;
+        t.src=k;l.parentNode.insertBefore(t,l)})(window,document,'script','https://192.168.68.116:4001/assets/common/sstream.min.js','marketaleSR');
+
+        marketaleSR({
+            host: '192.168.68.116:4006',
+            profileID: 'cpagrxyx'
+        });
+    </script>
+  <script type="text/javascript" src="https://192.168.68.116:4001/assets/common/vstream.min.js" async=1></script>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-G19HLQ8HRL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -39,9 +62,9 @@
   <main id="main">
 
     <section class="section-bg">
-      <!-- <img src="files/Logo.png" class="icon" /> -->
       <div class="container">
         <div class="row">
+          <img src="files/Logo-black.png" id="mainLogo">
           <h1 class="col-md-12 pt-5 order-2 order-md-1">
             Hi, we are The Rita.
           </h1>
@@ -123,6 +146,13 @@
             </div>
           </div>
 
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="icon-box icon-box-pink">
+              <img alt="Delivery Services" class="icon" /><br><br>
+              <h4 class="title"><a href="">Delivery Services Company in Kuwait</a></h4>
+              <p class="description">Delivery services from a company in Kuwait. We have recently signed agreement on our investment to them and more updates will be updated soon..</p><br>
+            </div>
+          </div>
 
         </div>
       </div>
