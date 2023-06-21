@@ -86,6 +86,14 @@ h6,
   height: 60px;
 }
 
+#mainLogo {
+  height: auto;
+  width: auto;
+  max-width: 80px;
+  max-height: 80px;
+  /*margin-left: -200px;*/
+}
+
 #header .logo h1 {
   font-size: 28px;
   margin: 0;
